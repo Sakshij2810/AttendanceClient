@@ -37,7 +37,7 @@ export const signup = (authData, navigate) => async (dispatch) => {
     } else if (authData.role === "Teacher") {
       navigate("/Teacher-Home");
     } else if (authData.role === "HOD") {
-      navigate("/HOD-Home");
+      navigate("/HOD-Dashboard");
     }
   } catch (error) {
     alert(error);

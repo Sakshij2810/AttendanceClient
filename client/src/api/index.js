@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:3001" });
+const API = axios.create({
+  baseURL: "https://attendanceserver-1-agl7.onrender.com",
+});
 
 //auth API
 export const logIn = (authData) => API.post("/user/login", authData);
