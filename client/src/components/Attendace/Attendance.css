@@ -1,0 +1,32 @@
+.take-attendance-container {
+  display: flex;
+}
+
+.present-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+.present-icon:hover {
+  color: green;
+}
+.absent-icon {
+  cursor: pointer;
+  font-size: 30px;
+}
+.absent-icon:hover {
+  color: red;
+}
+.off-icon {
+  cursor: pointer;
+  font-size: 30px;
+}
+.off-icon:hover {
+  color: rgb(99, 24, 99);
+}
+.date-picker-attendance {
+  margin-bottom: 10px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

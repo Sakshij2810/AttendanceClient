@@ -1,0 +1,32 @@
+.card-content {
+  width: 330px;
+  height: 320px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  /* border: 1px solid rgb(99, 24, 99); */
+}
+.card-content video {
+  margin: 0%;
+  padding: 0%;
+
+  width: 100%;
+  height: 200px;
+}
+.card-content p {
+  color: rgb(99, 24, 99);
+  font-weight: 500;
+}
+.card-content h3 {
+  margin: 0%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 18px 0;
+  text-align: center;
+  color: white;
+  background-color: rgb(99, 24, 99);
+}

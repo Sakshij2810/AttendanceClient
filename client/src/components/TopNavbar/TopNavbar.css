@@ -1,0 +1,33 @@
+.topnavbar-container {
+  max-width: 100%;
+}
+.topnavbar-content {
+  max-width: 100%;
+  padding: 5px 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.icon {
+  margin-top: 10px;
+  font-size: 35px;
+}
+.logout-icon {
+  border: none;
+  margin-left: 100px;
+  background-color: white;
+
+  margin-top: 10px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.logout-icon:hover {
+  color: rgb(99, 24, 99);
+}
+.topnavbar-content h3 {
+  width: 1000px;
+  font-weight: 500;
+  font-size: 25px;
+}

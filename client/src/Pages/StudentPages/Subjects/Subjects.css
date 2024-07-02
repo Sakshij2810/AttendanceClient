@@ -1,0 +1,33 @@
+.subject-container {
+  width: 100%;
+  display: flex;
+}
+.rightsidebar {
+}
+.subject-middle-contant {
+  width: 100%;
+  height: 89%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subject-headline {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(99, 24, 99);
+
+  color: white;
+  padding: 0px 200px;
+  border-radius: 15px;
+  gap: 15px;
+}
+.subject-names {
+  padding-top: 20px;
+}
+.subject-names p {
+  color: rgb(99, 24, 99);
+  font-size: 20px;
+  padding: 5px 300px;
+}

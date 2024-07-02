@@ -1,0 +1,6 @@
+.allStudents-container {
+  display: flex;
+}
+.allStudents-container .card-container {
+  padding-top: 15px;
+}

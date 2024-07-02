@@ -1,0 +1,10 @@
+.overallAttendance-container {
+  display: flex;
+}
+.overall-attendance-main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,61 @@
+.leftsidebar-container {
+  width: 100%;
+  height: 100vh;
+}
+.leftsidebar-nav {
+  width: 100%;
+  height: 100vh;
+}
+.name-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.leftsidebar-user-data {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.leftsidebar-user-data p {
+  color: rgb(99, 24, 99);
+
+  font-weight: 800;
+  padding: 0%;
+  margin: 0%;
+}
+.left-links {
+  background: url("../../assets/profile.webp");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  background-color: white;
+  padding: 60px 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+}
+.sidenav-navlinks {
+  width: 100%;
+}
+.side-nav-links {
+  margin-left: 30px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.active {
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(99, 24, 99);
+  border-right: 3px solid rgb(226, 67, 226);
+}

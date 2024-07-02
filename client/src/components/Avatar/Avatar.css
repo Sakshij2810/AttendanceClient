@@ -1,0 +1,34 @@
+.avtar-main-container {
+  display: flex;
+}
+.avatar-container {
+  width: 100%;
+  height: 89%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar-content {
+  padding: 50px 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.204);
+}
+.avatar-content p {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.avatar-content p h3 {
+  margin: 0%;
+  width: 200px;
+  padding: 5px 10px;
+  background-color: rgb(99, 24, 99);
+  color: white;
+}
+.avatar-content p span {
+  padding-left: 10px;
+}

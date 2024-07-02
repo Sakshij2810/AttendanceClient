@@ -1,0 +1,147 @@
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+}
+.topbar {
+  display: flex;
+  width: 100%;
+  height: 130px;
+}
+.dashboard-topnavbar {
+  width: 80%;
+}
+.dashboard-name-link {
+  display: flex;
+
+  align-items: center;
+  padding-left: 30px;
+  gap: 20px;
+  width: 20%;
+
+  /* background-color: gray; */
+  background-color: rgb(99, 24, 99);
+}
+.dashboard-left-links {
+  background: url("../../../assets/profile.webp");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  background-color: white;
+  padding: 50px 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+}
+.dashboard-leftsidebar-user-data {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.dashboard-leftsidebar-user-data p {
+  /* color: rgb(99, 24, 99); */
+  color: white;
+  font-weight: 600;
+  padding: 0%;
+  margin: 0%;
+}
+.dashboard-topnavbar {
+  display: flex;
+  align-items: center;
+}
+.bottombar {
+  background-color: rgb(232, 232, 232);
+
+  width: 100%;
+  height: calc(100% - 130px);
+}
+.bottombar .dashboard-middle-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.dashboard-middle-left {
+  width: 60%;
+}
+.dashboard-middle-right {
+  width: 40%;
+  border-radius: 10px;
+  background-color: rgb(232, 232, 232);
+  /* background-color: white; */
+  margin-top: 10px;
+  height: 97%;
+  margin-left: 10px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashboard-mlb {
+  margin-left: 5px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-mlt {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+.dashboard-mlt-content {
+  border-radius: 10px;
+  background-color: white;
+  width: 97.5%;
+  height: 95%;
+}
+.dashboard-mlb-content {
+  border-radius: 10px;
+  background-color: white;
+  width: 97.5%;
+  height: 95%;
+}
+.dashboard-mlt-content h2,
+.dashboard-mlb-content h2 {
+  color: rgb(99, 24, 99);
+  padding-left: 20px;
+  color: rgb(83, 0, 83);
+  color: rgb(109, 0, 109);
+  color: rgb(163, 0, 163);
+  color: rgb(204, 0, 204);
+  color: rgb(255, 0, 255);
+}
+.dashboard-mrt {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+.dashboard-mrb {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.dashboard-mrb h2 {
+  padding-left: 20px;
+}
+.doughnut-div {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
